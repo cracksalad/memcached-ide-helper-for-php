@@ -10,6 +10,8 @@ This product includes PHP software, freely available from <http://www.php.net/so
 
 ## Installation
 
+You should not use this package in production. Thereby add the `--dev` flag when requiring.
+
 ```bash
-composer require cracksalad/memcached-ide-helper
+composer require --dev cracksalad/memcached-ide-helper
 ```
