@@ -6,8 +6,6 @@ This package is up to date with **PECL memcached extension version 3.2** and use
 
 **This package is for you, if** you do not want to install libmemcached and the PECL memcached extension in your development environment, but you do not want to abstain from type checking and IDE autocomplete.
 
-This product includes PHP software, freely available from <http://www.php.net/software/>.
-
 ## Installation
 
 You should not use this package in production. Thereby add the `--dev` flag when requiring.
