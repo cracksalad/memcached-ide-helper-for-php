@@ -1,0 +1,11 @@
+{
+    "name": "cracksalad/memcached-ide-helper",
+    "type": "library",
+    "description": "IDE help files for PHP's memcached extension.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Wahlen"
+        }
+    ]
+}
