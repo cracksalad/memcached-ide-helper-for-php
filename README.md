@@ -11,5 +11,5 @@ This product includes PHP software, freely available from <http://www.php.net/so
 ## Installation
 
 ```bash
-composer require cracksalad/memcached-ide-helper-for-php
+composer require cracksalad/memcached-ide-helper
 ```
