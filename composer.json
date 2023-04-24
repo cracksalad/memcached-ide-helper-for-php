@@ -4,8 +4,8 @@
     "type": "library",
     "description": "IDE help files for PHP's memcached extension.",
     "keywords": [
-      "ide-helper",
-      "memcached"
+        "ide-helper",
+        "memcached"
     ],
     "license": "MIT",
     "authors": [
@@ -13,5 +13,13 @@
             "name": "Andreas Wahlen",
             "role": "Maintainer"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Memcached": "src/"
+        }
+    }
 }
