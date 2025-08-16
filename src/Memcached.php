@@ -14,6 +14,8 @@ class Memcached {
   public const OPT_COMPRESSION_TYPE = -1004;
   public const OPT_STORE_RETRY_COUNT = -1005;
   public const OPT_USER_FLAGS = -1006;
+  public const MEMC_OPT_COMPRESSION_LEVEL = -1007;
+  public const MEMC_OPT_ITEM_SIZE_LIMIT = -1008;
   public const OPT_NO_BLOCK = 0;
   public const OPT_TCP_NODELAY = 1;
   public const OPT_HASH = 2;
@@ -92,6 +94,7 @@ class Memcached {
   
   public const COMPRESSION_ZLIB = 1;
   public const COMPRESSION_FASTLZ = 2;
+  public const COMPRESSION_ZSTD = 3;
   
   
   // flags for get and getMulti operations.
